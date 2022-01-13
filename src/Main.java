@@ -2,12 +2,12 @@
 public class Main {
     public static void main(String[] args) {
         int balance = 99 ;
-        int addingFunds = 1010;
+        int addingFunds = 100;
         int bonus  =0;
 
         System.out.println("Ваш старый баланс " + balance);
 
-        if (addingFunds > 100) {
+        if (addingFunds >= 100) {
             bonus = addingFunds / 100;
         }
         //Иначе бонус не меняется, а он объявлен 0
